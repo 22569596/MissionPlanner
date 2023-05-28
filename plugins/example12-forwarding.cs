@@ -46,7 +46,7 @@ namespace Forwarding
 
         public override bool Loop()
         {
-            {
+            {   
                 MainV2.comPort.MirrorStreamWrite = true;
                 
                 if (!started)
